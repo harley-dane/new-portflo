@@ -8,14 +8,14 @@ const nav = document.querySelector("nav");
 
 const headerAboutMe = document.getElementById("headerAboutMe");
 
-const milenaAboutMe = document.getElementById("milenaAboutMe");
+const harleyAboutMe = document.getElementById("milenaAboutMe");
 
 const developerAboutMe = document.getElementById("developerAboutMe");
 
 const myWorldAboutMe = document.getElementById("myWorldAboutMe");
 
 const hi = "Hi, My Name is";
-const milena = "- Harley -";
+const harley = "- Harley -";
 const developer = "I am a Frontend-Developer.";
 const welcome = "Welcome to my Portfolio.";
 
@@ -48,7 +48,7 @@ setTimeout(() => {
 autoWriter(headerAboutMe, hi, 15);
 }, 1000);
 setTimeout(() => {
-autoWriter(milenaAboutMe, milena, 20);
+autoWriter(harleyAboutMe, harley, 20);
 }, 2500);
 setTimeout(() => {
 autoWriter(developerAboutMe, developer, 15);
